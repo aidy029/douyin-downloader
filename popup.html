@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>抖音采集助手</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <header><div><span class="mark">▥</span><strong>抖音采集助手</strong></div><span>Chrome 版</span></header>
+  <main>
+    <section class="capture"><h1>收藏当前作品</h1><p>打开视频或图文详情，使用当前浏览器的登录状态采集。</p><button id="collect" class="primary">采集当前页面</button><p id="status" role="status" aria-live="polite">采集后可下载封面、视频 / 图片及元数据。</p></section>
+    <section><div class="library-heading"><h2>本地素材库 <span id="count">0</span></h2><button id="export">导出 JSON</button></div><input type="search" id="search" placeholder="搜索标题、作者或作品 ID" aria-label="搜索素材"><div id="list"></div></section>
+    <details class="settings"><summary>下载目录设置</summary><form id="directory-form"><label for="directory">下载根目录下的子目录</label><input id="directory" placeholder="抖音素材，例如：抖音素材/收藏" maxlength="150"><div class="actions"><button type="submit">保存设置</button><button type="button" id="download-settings">Chrome 下载设置</button><button type="button" id="open-downloads">打开下载目录</button></div><p id="directory-preview"></p><p>如需保存到 D 盘，请在 Chrome 下载设置中修改「位置」。如每个文件都弹出「另存为」，请关闭「下载前询问每个文件的保存位置」。若仍弹出，请检查迅雷 / IDM 等下载扩展是否接管了下载。</p></form></details>
+  </main>
+  <footer><section class="advertisements" aria-label="广告"><div class="advertisements-label">广告</div><div class="advertisements-grid"><a href="https://aichongzhi.live/" target="_blank" rel="noopener noreferrer" aria-label="买 AI 会员（在新标签页打开）"><img src="images/ai-membership.svg" width="368" height="176" alt="买 AI 会员 · aichongzhi.live · 前往网站"></a><a href="https://xuzhi.ai/" target="_blank" rel="noopener noreferrer" aria-label="AI 聚合平台（在新标签页打开）"><img src="images/ai-platform.svg" width="368" height="176" alt="AI 聚合平台 · xuzhi.ai · 前往网站"></a></div></section><p class="footer-note">文件保存至 Chrome 下载目录 · 评论仅包含页面已显示内容</p></footer>
+  <dialog id="welcome" aria-labelledby="welcome-title"><h2 id="welcome-title">一次点击，自动保存整组素材</h2><p>请先在 Chrome 下载设置中关闭「下载前询问每个文件的保存位置」。开启时，封面、视频和 meta.json 会分别弹出「另存为」，需要逐个确认。</p><p>后续可在「下载目录设置」中查看说明和修改保存目录。</p><div class="actions"><button type="button" id="download-help-settings">打开 Chrome 下载设置</button><button type="button" id="welcome-dismiss" class="primary">知道了</button></div></dialog>
+  <script src="popup.js"></script>
+</body></html>

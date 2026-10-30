@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="368" height="176" viewBox="0 0 368 176">
+  <rect width="368" height="176" rx="12" fill="#f1e8d6"/>
+  <g fill="none" stroke="#29251e" stroke-width="2">
+    <rect x="257" y="39" width="72" height="94" rx="8" transform="rotate(12 293 86)"/>
+    <rect x="244" y="32" width="72" height="94" rx="8" fill="#f1e8d6"/>
+    <path d="M263 64h34m-34 11h24m-24 34h13"/>
+    <circle cx="296" cy="108" r="10" fill="#d9ac52"/>
+  </g>
+  <g font-family="Segoe UI,Microsoft YaHei,sans-serif" fill="#29251e">
+    <text x="24" y="39" font-size="12">AI 会员服务</text>
+    <text x="24" y="86" font-size="30" font-weight="700">买 AI 会员</text>
+    <text x="24" y="115" font-size="13">aichongzhi.live</text>
+    <text x="24" y="151" font-size="13" font-weight="600">前往网站 ↗</text>
+  </g>
+</svg>

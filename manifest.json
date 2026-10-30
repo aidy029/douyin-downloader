@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "抖音采集助手",
+  "version": "0.1.5",
+  "description": "在已登录的抖音作品页采集封面、视频、图文和可见评论，保存到本地素材库。",
+  "minimum_chrome_version": "111",
+  "content_scripts": [{ "matches": ["https://www.douyin.com/*", "https://douyin.com/*"], "js": ["observe.js"], "world": "MAIN", "run_at": "document_start" }],
+  "permissions": ["activeTab", "scripting", "storage", "downloads", "notifications"],
+  "host_permissions": ["https://www.douyin.com/*", "https://douyin.com/*"],
+  "action": { "default_popup": "popup.html", "default_title": "抖音采集助手" },
+  "background": { "service_worker": "background.js" }
+}

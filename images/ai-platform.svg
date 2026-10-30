@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="368" height="176" viewBox="0 0 368 176">
+  <rect width="368" height="176" rx="12" fill="#d9eae5"/>
+  <g stroke="#234139" stroke-width="2" fill="none">
+    <path d="M279 47v28m0 26v28m-41-41h28m26 0h28"/>
+    <rect x="265" y="74" width="28" height="28" rx="6" fill="#234139"/>
+    <rect x="267" y="30" width="24" height="24" rx="5" fill="#d9eae5"/>
+    <rect x="267" y="122" width="24" height="24" rx="5" fill="#d9eae5"/>
+    <rect x="225" y="76" width="24" height="24" rx="5" fill="#d9eae5"/>
+    <rect x="310" y="76" width="24" height="24" rx="5" fill="#d9eae5"/>
+  </g>
+  <g font-family="Segoe UI,Microsoft YaHei,sans-serif" fill="#234139">
+    <text x="24" y="39" font-size="12">AI 工具入口</text>
+    <text x="24" y="86" font-size="28" font-weight="700">AI 聚合平台</text>
+    <text x="24" y="115" font-size="13">xuzhi.ai</text>
+    <text x="24" y="151" font-size="13" font-weight="600">前往网站 ↗</text>
+  </g>
+</svg>
